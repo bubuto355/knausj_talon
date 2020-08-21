@@ -1,40 +1,17 @@
 slap:
 	edit.line_end()
 	key(enter)
-cd: "cd "
+cod: "cd "
+cod talon: "cd .talon/user/talon_scripts"
 grep: "grep "
-elle less: "ls "
-run L S: "ls\n"
+less: "ls "
 run (S S H | S H): "ssh"
-diff: "diff "
-dot pie: ".py"
-run vim: "vim "
-run make: "make\n"
+vim run : "vim "
 run make (durr | dear): "mkdir "
-(jay son | jason ): "json"
-(http | htp): "http"
-tls: "tls"
-M D five: "md5"
-(regex | rejex): "regex"
-word queue: "queue"
-word eye: "eye"
-word iter: "iter"
-word no: "NULL"
-word cmd: "cmd"
-word dup: "dup"
-word streak: 
-	insert("streq()") 
-	key(left)
-word printf: "printf"
-word shell: "shell"
-dunder in it: "__init__"
 args: 
 	insert("()")
 	key(left)
-[inside] (index | array): 
-	insert("[]") 
-	key(left)
-empty array: "[]"
+braces: "[]"
 list in it: 
 	insert("[]") 
 	key(left)
@@ -44,14 +21,9 @@ list in it:
 block: 
 	insert("{}") 
 	key(left enter enter up tab)
-(in | inside) percent: 
-	insert("%%") 
-	key(left)
-string U T F eight: 
-	insert("'utf8'")
-state past: "pass"
-zoom [in]: edit.zoom_in()
-zoom out: edit.zoom_out()
+angles:
+        insert('<>')
+        key(left)
 (page | scroll) up: key(pgup)
 (page | scroll) down: key(pgdown)
 copy that: edit.copy()
@@ -59,21 +31,9 @@ cut that: edit.cut()
 paste that: edit.paste()
 paste match: edit.paste_match_style()
 file save: edit.save()
-#menu help: key(F1)
-#spotlight: key(super)
-undo that: edit.undo()
+undo: edit.undo()
 redo that: edit.redo()
-volume up: key(volup)
-volume down: key(voldown)
-mute: key(mute)
-play next: key(next)
-play previous: key(prev)
-(play | pause): key(play_pause)  
-wipe: key(backspace)
-(pad | padding): 
-	insert("  ") 
-	key(left)
-funny: "ha ha"
-#menu: key(alt)
+delete: key(backspace)
+
 
 

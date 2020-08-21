@@ -4,7 +4,7 @@ double dash: "--"
 (bracket | brack | left bracket): "{"
 (rbrack | are bracket | right bracket): "}"
 triple quote: "'''"
-(dot dot | dotdot): ".."
+(dot dot | dotdot | double dot): ".."
 #ellipses: "…"
 ellipses: "..."
 (comma and | spamma): ", "
@@ -15,16 +15,17 @@ new line: "\\n"
 carriage return: "\\r"
 line feed: "\\r\\n"
 empty dubstring:
-    '""'
+    "''"
     key(left)
 empty escaped (dubstring|dub quotes):
     '\\"\\"'
     key(left)
     key(left)
 empty string:
-    "''"
+    '""'
     key(left)
 empty escaped string:
     "\\'\\'"
     key(left)
     key(left)
+spades: " "
