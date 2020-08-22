@@ -2,7 +2,8 @@ slap:
 	edit.line_end()
 	key(enter)
 cod: "cd "
-cod talon: "cd .talon/user/talon_scripts"
+cod talon: "cd ~/.talon/user/knausj_talon"
+talon: "talon"
 grep: "grep "
 less: "ls "
 run (S S H | S H): "ssh"

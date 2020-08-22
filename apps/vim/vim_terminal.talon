@@ -1,9 +1,9 @@
-win.title: /VIM/
-
+win.title: /VIM MODE:t/
 -
 tag(): terminal
-project view:
-        key(space p v)
+
+(pop terminal|vim mode):
+    key(ctrl-\ ctrl-n)
 
 # pop terminal mode and scroll up once, from this point onward you can scroll
 # like normal

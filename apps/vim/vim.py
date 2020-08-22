@@ -236,7 +236,7 @@ vim_motions = {
     "big back": "B",
     "big back word": "B",
     # XXX - this conflicts with default talon 'end' key pressing
-    # "end": "e",
+    "end": "e",
     "end word": "e",
     "big end": "E",
     "word": "w",

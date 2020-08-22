@@ -36,9 +36,10 @@ state case:
 	insert("case \nbreak;")
 	edit.up()
 state for:
-    insert('for (int i = 0; i < ; i++) {')
-        key(enter)
-        key(up right right right right right right right right right right right right right right right right )
+    insert('fori' )
+    sleep(200ms)   
+    key(enter)
+    key(right right right right right right right right right right)
 state well:
     insert("while () ")
     edit.left()
@@ -64,12 +65,22 @@ state int:
         insert('int ')
 state arraylist:
         insert('ArrayList')
+       sleep(200ms) 
+        key(enter)
+       insert('<>') 
+       key(left)
+
 state linkedlist:
         insert('LinkedList')
+       sleep(200ms) 
+        key(enter)
+       insert('<>') 
+       key(left)
 state hashmap:
         insert('HashMap')
+       sleep(200ms) 
+        key(enter)
+       insert('<>') 
+       key(left)
 state instanceof:
         insert('instanceof ')
-action complete:
-        key(alt shift enter)
-
